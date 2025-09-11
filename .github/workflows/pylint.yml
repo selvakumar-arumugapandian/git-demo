@@ -22,4 +22,4 @@ jobs:
         
     - name: Execute my Python Code
       run: |
-        python python_app.py "Selva Kumar Arumugapandian"
+        python python_app.py ${{ vars.name }}
